@@ -1,0 +1,32 @@
+/* ── Fuentes ── */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --font-title: 'Fraunces', Georgia, serif;
+  --font-body: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* ── Tema oscuro (por defecto) ── */
+[data-theme='dark'] {
+  --color-bg: #14111a;
+  --color-surface: #1c1825;
+  --color-accent: #a78bfa;
+  --color-accent-dim: #6d4ac2;
+  --color-text: #eceaf0;
+  --color-text-muted: #9a93a8;
+  --color-border: #2a2438;
+  --color-glow: rgba(167, 139, 250, 0.15);
+}
+
+/* ── Tema claro ── */
+[data-theme='light'] {
+  --color-bg: #faf9fc;
+  --color-surface: #f0edf8;
+  --color-accent: #7c3aed;
+  --color-accent-dim: #a78bfa;
+  --color-text: #1a1620;
+  --color-text-muted: #5c5470;
+  --color-border: #ddd8f0;
+  --color-glow: rgba(124, 58, 237, 0.1);
+}
